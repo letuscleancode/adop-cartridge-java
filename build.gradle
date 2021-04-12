@@ -2,6 +2,7 @@ apply plugin: 'groovy'
 
 repositories {
     mavenCentral()
+    google()
     maven { url 'http://repo.jenkins-ci.org/releases/' }
 }
 
